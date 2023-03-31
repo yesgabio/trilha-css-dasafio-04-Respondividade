@@ -1,0 +1,181 @@
+@import url(./reset.css);
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    background-image: url("/assets/img/Header\ Background.png");
+    background-position: bottom;
+    padding-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    text-align: start;
+    width: 300px;
+    color: whitesmoke;
+    padding: 30px 0 20px 10px;
+}
+
+header p{
+    font-size: 12px;
+    font-weight: 400;
+    width: 310px;
+    color: whitesmoke;
+    padding: 0 0 20px 10px;
+}
+
+button{
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 50px;
+    border: 0 solid transparent;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.buttons #white{
+    font-size: 12px;
+    color: #23272A;
+    background-color: whitesmoke;
+}
+
+.buttons #black{
+    font-size: 12px;
+    color: whitesmoke;
+    background-color: #23272A;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+img{
+    max-width: 100%;
+}
+
+section h2{
+    font-size: 16px;
+    font-weight: 800;
+    width: 290px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+section p{
+    font-size: 12px;
+    font-weight: 200;
+    width: 290px;
+}
+
+.section-02{
+    background-color: #F6F6F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.final-section{
+    background-color: #F6F6F6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.final-section h1{
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 500;
+    text-align: start;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.final-section img{
+    padding: 30px;
+}
+
+footer{
+    background-color: #23272A;
+    width: auto;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer img{
+    margin: 20px;
+}
+
+@media screen and (min-width: 690px){
+
+    header{
+        background-size: cover;
+        padding-bottom: 40px;
+
+    }
+    
+    header h1{
+        text-align: center;
+        width: 300px;
+    }
+
+    header p{
+        width: 550px;
+        text-align: center;
+    }
+
+    .buttons{
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    section{
+        flex-direction: row;
+        padding: 30px;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    section h2{
+        font-size: 24px;
+    }
+
+    .section-02{
+        flex-direction: row-reverse;
+    }
+
+    .final-section{
+        flex-direction: column;
+    }
+
+    .final-section h1{
+        margin-left: 20%;
+        font-size: 32px;
+        text-align: center;
+    }
+    .final-section p{
+        text-align: center;
+        width: 600px;
+    }
+
+}
